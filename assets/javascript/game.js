@@ -2,6 +2,7 @@ var gameInfo ={
 	targetPower:0,
 	powerUp: [],
 	intervalId: 0,
+	// powerInc: 0,
 	currentPower: 0,
 	winCount: 0,
 	lossCount: 0,
@@ -49,11 +50,14 @@ var gameInfo ={
 
 	},
 
+	// I was trying to make it so that the scoreboard would increment up instead
+	// of just jumping to the number, buuuut.  Issues!
+	
 	// count: function(){
 	// 	console.log(gameInfo.powerInc);
 	// 	gameInfo.powerInc++;
 	// 	var currentPower = gameInfo.powerConverter(gameInfo.powerInc);
-	// 	$("#power_counter").html("<h2> "+currentPower+" <h2>");
+	// 	$("#power_counter").html("<h2> "+currentPower "</h2>");
 	// },
 
 	powerConverter: function(t) {
