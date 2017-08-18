@@ -1,0 +1,29 @@
+#title{
+	color: #21D4FD;
+	background-color: #23089A;
+	border-radius: 25px;
+}
+
+.power_counter h2{
+	color: black;
+	font-weight: bold;
+	font-size: 80px;
+	text-align: center;
+	padding: 20px;
+	background-color: #DEF2FD; 
+	border-radius: 30px;
+	border: solid #23089A 2px;
+}
+
+.power_btn{
+	font-size: 22px;
+}
+
+.score_board{
+	padding: 10px;
+	margin: 20px;
+	background-color: #DEF2FD; 
+	border-radius: 30px;
+	border: solid #23089A 2px;
+
+}
